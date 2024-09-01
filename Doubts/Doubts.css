@@ -1,17 +1,17 @@
 #test {
-    top: 20px;
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
-    position: relative;
-    border: 5px solid black;
+  top: 20px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  position: relative;
+  border: 5px solid black;
 }
 
 #myDIV {
-    height: 250px;
-    width: 400px;
-    padding: 10px;
-    margin: 15px;
-    border: 5px solid red;
-    background-color: lightblue;
+  height: 250px;
+  width: 400px;
+  padding: 10px;
+  margin: 15px;
+  border: 5px solid red;
+  background-color: lightblue;
 }

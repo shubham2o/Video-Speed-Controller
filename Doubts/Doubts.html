@@ -1,82 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Doubts</title>
-    <link rel="stylesheet" href="Doubts.css">
-</head>
+    <link rel="stylesheet" href="Doubts.css" />
+  </head>
 
-<body>
+  <body>
     <!-- MouseEvent pageX Property -->
     <h1>MouseEvent pageX Property</h1>
-    <p>• The pageX property returns the horizontal coordinate (according to the document) of the mouse pointer when a mouse event was triggered.</p>
+    <p>
+      • The pageX property returns the horizontal coordinate (according to the
+      document) of the mouse pointer when a mouse event was triggered.
+    </p>
     <p>• The document is the web page.</p>
-    <p>• <strong>Tip: </strong>To get the vertical coordinate (according to the document) of the mouse pointer, use the pageY property.</p>
+    <p>
+      • <strong>Tip: </strong>To get the vertical coordinate (according to the
+      document) of the mouse pointer, use the pageY property.
+    </p>
     <p>• <strong>Note: </strong>This property is read-only.</p>
-    <p>• <strong>Note: </strong>This property is non-standard, but works in most major browsers.</p>
-    <br>
+    <p>
+      • <strong>Note: </strong>This property is non-standard, but works in most
+      major browsers.
+    </p>
+    <br />
 
     <!-- EXAMPLE 1 -->
-    <p>• <strong>EXAMPLE 1 ||</strong> Output the coordinates of the mouse pointer when the mouse button is clicked on an element:</p>
-    <h2 onclick="showCoords(event)">Click this heading to get the x (horizontal) and y (vertical) coordinates of the mouse pointer when it was clicked.</h2>
+    <p>
+      • <strong>EXAMPLE 1 ||</strong> Output the coordinates of the mouse
+      pointer when the mouse button is clicked on an element:
+    </p>
+    <h2 onclick="showCoords(event)">
+      Click this heading to get the x (horizontal) and y (vertical) coordinates
+      of the mouse pointer when it was clicked.
+    </h2>
     <p><strong>Tip: </strong>Try to click different places in the heading.</p>
     <p id="demo"></p>
-    <hr size="5" noshade>
+    <hr size="5" noshade />
 
     <!-- HTML DOM Element offsetTop -->
     <h1>HTML DOM Element offsetTop</h1>
-    <p>• The offsetTop property returns the top position (in pixels) relative to the parent.</p>
-    <p>• The returned value includes:
-        <br> -- the top position, and margin of the element
-        <br> -- the top padding, scrollbar and border of the parent
+    <p>
+      • The offsetTop property returns the top position (in pixels) relative to
+      the parent.
+    </p>
+    <p>
+      • The returned value includes: <br />
+      -- the top position, and margin of the element <br />
+      -- the top padding, scrollbar and border of the parent
     </p>
     <p>• The offsetTop property is read-only.</p>
-    <br>
+    <br />
 
     <!-- EXAMPLE 1 -->
-    <p>• <strong>EXAMPLE 1 ||</strong> Get the offsetTop position of "myDIV": </p>
+    <p>
+      • <strong>EXAMPLE 1 ||</strong> Get the offsetTop position of "myDIV":
+    </p>
     <div id="test">
-        <p>Click the button to get offsetTop for the test div.</p>
-        <p><button onclick="offsetTop1()">Try it</button></p>
-        <p>offsetTop is: <span id="demoOT"></span></p>
+      <p>Click the button to get offsetTop for the test div.</p>
+      <p><button onclick="offsetTop1()">Try it</button></p>
+      <p>offsetTop is: <span id="demoOT"></span></p>
     </div>
-    <br>
-    <hr size="5" noshade>
+    <br />
+    <hr size="5" noshade />
 
     <!-- HTML DOM Element offsetHeight -->
     <h1>HTML DOM Element offsetHeight</h1>
-    <p>• The offsetHeight property returns the viewable height of an element (in pixels), including padding, border and scrollbar, but not the margin.</p>
+    <p>
+      • The offsetHeight property returns the viewable height of an element (in
+      pixels), including padding, border and scrollbar, but not the margin.
+    </p>
     <p>• The offsetHeight property is read-only.</p>
-    <br>
+    <br />
 
     <!-- EXAMPLE 1 -->
-    <p>• <strong>EXAMPLE 1 ||</strong> Display the height and width of "myDIV" including padding and border:</p>
+    <p>
+      • <strong>EXAMPLE 1 ||</strong> Display the height and width of "myDIV"
+      including padding and border:
+    </p>
     <div id="myDIV">
-        <b>Information about this div:</b><br> Height: 250px <br> Width: 400px <br> Padding: 10px <br> Margin: 15px <br> Border: 5px <br>
-        <p id="demoOH"></p>
+      <b>Information about this div:</b><br />
+      Height: 250px <br />
+      Width: 400px <br />
+      Padding: 10px <br />
+      Margin: 15px <br />
+      Border: 5px <br />
+      <p id="demoOH"></p>
     </div>
-    <hr size="5" noshade>
+    <hr size="5" noshade />
 
     <!-- JavaScript Number toFixed() -->
     <h1>JavaScript Number toFixed()</h1>
     <p>• The toFixed() method converts a number to a string.</p>
-    <p>• The toFixed() method rounds the string to a specified number of decimals.</p>
-    <p>• If the number of decimals are higher than in the number, zeros are added.</p>
-    <br>
+    <p>
+      • The toFixed() method rounds the string to a specified number of
+      decimals.
+    </p>
+    <p>
+      • If the number of decimals are higher than in the number, zeros are
+      added.
+    </p>
+    <br />
 
     <!-- EXAMPLE 1 || -->
-    <p>• <strong>EXAMPLE 1 ||</strong> toFixed() converts a number to a string, rounded to a specified number of decimals. </p>
+    <p>
+      • <strong>EXAMPLE 1 ||</strong> toFixed() converts a number to a string,
+      rounded to a specified number of decimals.
+    </p>
     <p id="demoTF"></p>
-    <br>
+    <br />
 
-    <p>• <strong>EXAMPLE 2 ||</strong> toFixed() converts a number to a string, rounded to a specified number of decimals. </p>
-    <p id='demoTF1'></p>
-    <hr size="5" noshade>
+    <p>
+      • <strong>EXAMPLE 2 ||</strong> toFixed() converts a number to a string,
+      rounded to a specified number of decimals.
+    </p>
+    <p id="demoTF1"></p>
+    <hr size="5" noshade />
 
     <script src="Doubts.js"></script>
-</body>
-
+  </body>
 </html>
